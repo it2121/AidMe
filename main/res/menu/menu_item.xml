@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+
+        <item
+
+            android:icon="@drawable/ic_stat_name"
+            android:id="@+id/first"
+            android:title="Show More Informations"
+
+
+
+            />
+
+        <!--            android:icon="@drawable/ic_menu_camera"-->
+        <item
+            android:id="@+id/second"
+            android:icon="@drawable/ic_listt"
+            android:title="Hospitals List" />
+
+        <!--            android:icon="@drawable/ic_menu_gallery"-->
+        <item
+            android:id="@+id/thired"
+            android:title="Call Someone"
+            android:icon="@drawable/ic_ic_aboutcall"/>
+
+        <!--           android:icon="@drawable/ic_menu_slideshow"-->
+            />
+        <item
+            android:id="@+id/forth"
+            android:icon="@drawable/ic_ic_about"
+            android:title="About Us" />
+        android:layout_marginBottom="50dp"
+
+        <!--            android:icon="@drawable/ic_menu_manage"-->
+    </group>
+
+
+    <!--    <item android:title="here">-->
+<!--        <menu>-->
+<!--            <item-->
+<!--                android:id="@+id/nav_share"-->
+<!--                android:title="fifth" />-->
+
+<!--            &lt;!&ndash;                android:icon="@drawable/ic_menu_share"&ndash;&gt;-->
+<!--            <item-->
+<!--                android:id="@+id/nav_send"-->
+<!--                android:title="sixth" />-->
+
+<!--            &lt;!&ndash;                android:icon="@drawable/ic_menu_send"&ndash;&gt;-->
+<!--        </menu>-->
+<!--    </item>-->
+
+</menu>

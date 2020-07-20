@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AidMe</string>
+    <string name="location_permission_denied">User denied permission for device location.</string>
+    <string name="my_things">My things</string>
+    <string name="first_item">First Item</string>
+    <string name="second_item">Second Item</string>
+    <string name="third_item">Third Item</string>
+    <string name="forth_item">Forth Item</string>
+    <string name="drawerOpen">drawerOpen</string>
+    <string name="drawerClose">drawerClose</string>
+</resources>
