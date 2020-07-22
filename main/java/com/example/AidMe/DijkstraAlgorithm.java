@@ -62,8 +62,7 @@ public class DijkstraAlgorithm {
             }
         }
         return 0;
-      //  throw new RuntimeException("");
-        //Should not happen
+
     }
 
     private List<Vertex> getNeighbors(Vertex node) {
@@ -106,14 +105,14 @@ public class DijkstraAlgorithm {
 
     /*
      * This method returns the path from the source to the selected target and
-     * NULL if no path exists
+     * 0 if no path exists
      */
     public LinkedList<Vertex> getPath(Vertex target) {
         LinkedList<Vertex> path = new LinkedList<Vertex>();
         Vertex step = target;
         // check if a path exists
         if (predecessors.get(step) == null) {
-            //fucking here
+
             return path;
         }
         path.add(step);

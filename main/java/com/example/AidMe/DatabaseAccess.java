@@ -56,7 +56,8 @@ public class DatabaseAccess {
      */
     public  double[][] getnodes() {
         // List<String> list = new ArrayList<>();
-        double[][] nodeid= new double[3][7313];
+        //18726
+        double[][] nodeid= new double[3][18726];
         Cursor cursor = database.rawQuery("SELECT * FROM p", null);
         cursor.moveToFirst();
         int i = 0;
@@ -79,7 +80,7 @@ public class DatabaseAccess {
 
     public     double[][] getLines() {
         //   List<String> list = new ArrayList<>();
-        double[][] nodeid= new double [9][10869];
+        double[][] nodeid= new double [9][27250];
         Cursor cursor = database.rawQuery("SELECT * FROM l", null);
         cursor.moveToFirst();
         int i = 0;
